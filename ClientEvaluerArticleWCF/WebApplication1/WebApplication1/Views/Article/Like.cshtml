@@ -1,0 +1,48 @@
+﻿@model ServiceReference1.article
+
+@{
+    ViewData["Title"] = "Like";
+}
+
+<h2>Like</h2>
+
+<div>
+    <h4>article</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.dislikes)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.dislikes)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.likes)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.likes)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.num)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.num)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.text)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.text)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.title)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>

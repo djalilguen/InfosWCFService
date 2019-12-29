@@ -1,0 +1,9 @@
+E:\Etudes\Bois de boulogne\Session 4\420-A15-BB gr.000261\TP1\InfosWCFService\InfosWCFService\obj\Debug\InfosWCFService.csprojAssemblyReference.cache
+E:\Etudes\Bois de boulogne\Session 4\420-A15-BB gr.000261\TP1\InfosWCFService\InfosWCFService\obj\Debug\InfosWCFService.csproj.CoreCompileInputs.cache
+E:\Etudes\Bois de boulogne\Session 4\420-A15-BB gr.000261\TP1\InfosWCFService\InfosWCFService\bin\InfosWCFService.dll.config
+E:\Etudes\Bois de boulogne\Session 4\420-A15-BB gr.000261\TP1\InfosWCFService\InfosWCFService\bin\InfosWCFService.dll
+E:\Etudes\Bois de boulogne\Session 4\420-A15-BB gr.000261\TP1\InfosWCFService\InfosWCFService\bin\InfosWCFService.pdb
+E:\Etudes\Bois de boulogne\Session 4\420-A15-BB gr.000261\TP1\InfosWCFService\InfosWCFService\bin\mysql.data.dll
+E:\Etudes\Bois de boulogne\Session 4\420-A15-BB gr.000261\TP1\InfosWCFService\InfosWCFService\obj\Debug\InfosWCFService.csproj.CopyComplete
+E:\Etudes\Bois de boulogne\Session 4\420-A15-BB gr.000261\TP1\InfosWCFService\InfosWCFService\obj\Debug\InfosWCFService.dll
+E:\Etudes\Bois de boulogne\Session 4\420-A15-BB gr.000261\TP1\InfosWCFService\InfosWCFService\obj\Debug\InfosWCFService.pdb

@@ -1,0 +1,50 @@
+﻿@model IEnumerable<ServiceReference1.article>
+
+@{
+    ViewData["Title"] = "Search";
+}
+
+<h2>Search</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.num)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.likes)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dislikes)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.num)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.likes)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.dislikes)
+                </td>
+                <td>
+                    @Html.ActionLink("Read", "Details", new { id = item.num }) 
+                </td>
+            </tr>
+        }
+        <a asp-action="Index">Back to List</a>
+    </tbody>
+</table>

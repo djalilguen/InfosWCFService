@@ -1,0 +1,44 @@
+﻿@model ServiceReference1.article
+
+@{
+    ViewData["Title"] = "DetailsAsync";
+}
+
+<h2>@Html.DisplayFor(model => model.title)</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.title)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.title)
+        </dd>
+        <br />
+        <dt>
+            @Html.DisplayNameFor(model => model.text)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.text)
+        </dd>
+        <br />
+        <dt>
+            @Html.DisplayNameFor(model => model.dislikes)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.dislikes)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.likes)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.likes)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Like Article", "Like", new { id = Model.num }) |
+    @Html.ActionLink("DisLike Article", "Dislike", new { id = Model.num }) |    
+    <a asp-action="Index">Back to List</a>
+</div>
